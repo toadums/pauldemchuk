@@ -14,3 +14,4 @@ Clone this repo manually with Git or use `brunch new http://github.com/bradens/s
 * `public/` dir is fully auto-generated and served by HTTP server.
 * Write your code in `client`, or `test` dirs.
 * For production, build minified project with `brunch build --optimize`
+
