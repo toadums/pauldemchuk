@@ -1,0 +1,26 @@
+{
+  "author": "My brunch with sass app",
+  "name": "brunch-with-sass-app",
+  "description": "Brunch with sass, coffeescript, font-awesome, bourbon",
+  "version": "0.0.1",
+  "homepage": "http://github.com/bradens/sassy-brunch-minimal",
+  "repository": "http://github.com/bradens/sassy-brunch-minimal",
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "auto-reload-brunch": "~1.7.1",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "coffee-script": "=1.6.3",
+    "coffee-script-brunch": "~1.7.3",
+    "css-brunch": ">= 1.0 < 1.8",
+    "font-awesome": "4.0.3",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "node-bourbon": "^1.2.3",
+    "sass-brunch": "~1.7.2",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.11.0"
+  }
+}
