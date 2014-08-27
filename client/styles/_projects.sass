@@ -1,0 +1,66 @@
+$margin: 20px
+
+.page.projects
+  text-align: center
+  .projects
+    padding: 0
+    margin: 0 0 20px 0
+
+    .project
+      list-style: none
+      display: inline-block
+      position: relative
+
+      width: 200px
+      height: 300px
+
+      margin-left: $margin
+      margin-top: $margin
+      overflow: hidden
+      cursor: pointer
+      border: solid 5px $white
+      background-color: black
+
+      .info
+        position: absolute
+        bottom: 0
+        top: 100%
+        left: 0
+        right: 0
+        background-color: rgba($black, 0.5)
+        padding: 4px
+
+        @include transition(top 200ms ease-in-out)
+
+        .name
+          font-size: 16px
+
+        .sub
+          font-size: 14px
+
+      &:hover
+        .info
+          top: 200px
+
+.project .image
+  height: 100%
+  width: 100%
+
+  img
+    height: 100%
+    width: 100%
+    object-fit: contain
+
+
+
+@media screen and (max-width: 1600px)
+  .page.projects
+    width: 800 + 5*$margin
+
+    .project
+      &:nth-child(4n)
+        margin-right: 10$margin
+
+@media screen and (max-width: 1000px)
+  .page.projects
+    width: 600 + 4*$margin
