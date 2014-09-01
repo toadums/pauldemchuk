@@ -2,6 +2,7 @@
 
 @import "variables"
 @import "typography"
+@import "base"
 @import "projects"
 // body
 //   background-color: $black
@@ -27,29 +28,18 @@ body
 #contact
   display: inline-block
 
-  ul
-    padding: 0
-    li
-      list-style: none
-      display: inline-block
+  li
+    display: inline-block
 
-      &:nth-child(n+2)
-        margin-left: 10px
+    &:nth-child(n+2)
+      margin-left: 10px
 
-      &:nth-child(1)
-        margin-left: 20px
-
-  a
-    text-decoration: none
-    cursor: pointer
-    color: $black
-
-    &:hover
-      color: $purple
+    &:nth-child(1)
+      margin-left: 20px
 
 #about
   margin-top: 20px
-  max-width: 600px
+  max-width: 700px
 
 #projects
   margin-top: 30px
