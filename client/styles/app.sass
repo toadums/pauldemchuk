@@ -1,9 +1,59 @@
 @import 'node_modules/node-bourbon/assets/stylesheets/bourbon'
 
 @import "variables"
-@import "nav"
-@import "content"
+@import "typography"
 @import "projects"
 
+// body
+//   background-color: $black
+
 body
-  background-color: $black
+  padding: 50px 100px
+  background-color: whitesmoke
+
+#banner
+  display: inline-block
+
+  h1
+    font-size: 54px
+    margin-bottom: 10px
+    color: $black
+    display: inline-block
+
+  img
+    width: 100px
+    height: 100px
+    border-radius: 50px
+
+#contact
+  display: inline-block
+
+  ul
+    padding: 0
+    li
+      list-style: none
+      display: inline-block
+
+      &:nth-child(n+2)
+        margin-left: 10px
+
+      &:nth-child(1)
+        margin-left: 20px
+
+  a
+    text-decoration: none
+    cursor: pointer
+    color: $black
+
+    &:hover
+      color: $purple
+
+#about
+  margin-top: 20px
+  max-width: 600px
+
+#projects
+  margin-top: 30px
+
+span.highlight
+  color: $purple !important

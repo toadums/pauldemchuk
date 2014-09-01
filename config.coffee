@@ -13,7 +13,7 @@ exports.config =
       defaultExtension: 'sass'
       joinTo:
         'app.css': /^client\/styles\/app.sass/
-        'vendor.css': /^bower_components/
+        'vendor.css': /^(bower_components|vendor)/
 
   # Activate the brunch plugins
   plugins:
