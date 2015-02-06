@@ -1,3 +1,6 @@
-Repository for my personal website. Playing around with a bunch of things.
+# pauldemchuk.com
 
 Made with [Sassy Brunch Minimal](http://github.com/bradens/sassy-brunch-minimal`)
+
+## Deploy
+`git push ec2 master`
